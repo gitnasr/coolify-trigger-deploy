@@ -2,6 +2,7 @@ name: Coolify Deploy
 description: Reusable action for validating and triggering Coolify deployments with NTFY notifications
 author: gitnasr
 color: red
+icon: anchor
 inputs:
   docker_image:
     description: The Docker image tag to display
