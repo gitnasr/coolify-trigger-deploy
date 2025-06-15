@@ -1,6 +1,6 @@
 name: Coolify Deploy
 description: Reusable action for validating and triggering Coolify deployments with NTFY notifications
-author: NasrDev
+author: gitnasr
 
 inputs:
   docker_image:
