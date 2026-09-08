@@ -42,7 +42,7 @@ runs:
       uses: fjogeleit/http-request-action@v1
       with:
         url: ${{ inputs.coolify_url }}/api/v1/applications/${{ inputs.coolify_resource_id }}
-        method: PATCH
+        method: POST
         bearerToken: ${{ inputs.coolify_api_token }}
         data: >-
           {
