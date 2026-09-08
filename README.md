@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: nasrdev/coolify-deploy@v1
+      - uses: gitnasr/coolify-trigger-deploy@v2.0.1
         with:
           docker_image: "myapp:latest"
           ntfy_topic: "nasr-deploys"
